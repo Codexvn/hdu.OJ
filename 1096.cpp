@@ -12,7 +12,9 @@ int main()
             cin>>tmp;
             sum+=tmp;
         }
-        cout<<sum<<endl<<endl;
+        cout<<sum<<endl;
+        if (i!=T-1)
+            cout<<endl;
         sum=0; 
     }
 }
