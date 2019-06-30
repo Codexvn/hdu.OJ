@@ -11,5 +11,6 @@ int main()
             sum+=tmp;
         }
         cout<<sum<<endl;
+        sum=0;
     }
 }
