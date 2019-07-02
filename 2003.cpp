@@ -8,9 +8,8 @@ int main() {
 	while (cin >> get)
 	{
 		tmp= (unsigned long long*)&get;
-		*tmp = (*tmp << 1);
-		*tmp = (*tmp >> 1);
-		cout <<get<< endl;
+		*tmp = ((*tmp << 1) >> 1);
+		cout << get << endl;
 	}
 	return 0;
 }
