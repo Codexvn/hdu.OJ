@@ -1,3 +1,5 @@
-.gitignore
-build
-
+/build
+/Debug
+*.vcxproj
+*.user
+*.filters
